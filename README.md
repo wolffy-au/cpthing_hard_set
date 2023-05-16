@@ -39,5 +39,5 @@ at the end folder structure should be: Cyberpunk 2077/bin/x64/plugins/cyber_engi
 
 #### Credits
 [psiberx](https://github.com/psiberx) for his [CET kit](https://github.com/psiberx/cp2077-cet-kit), which I used to create this mod.
-Nexusmods.com: Brahmax and TeslaCoiled
+Nexusmods.com: [Brahmax](https://github.com/eniNorez) and TeslaCoiled
 
