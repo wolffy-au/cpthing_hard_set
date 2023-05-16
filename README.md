@@ -1,5 +1,4 @@
-# cpthing_hard_set
-CyberpunkTHING Hard Settings Switch
+# cpthing_hard_set - CyberpunkTHING Hard Settings Switch
 
 CyberpunkTHINK HardSet is a Cyberpunk 2077 Mod powered by Cyber Engine Tweaks and Native Settings.
 
