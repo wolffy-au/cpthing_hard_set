@@ -23,7 +23,7 @@ The settings will restore when you untoggle the switch.
 ```bash
 "Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods"
 ``` 
-at the end folder structure should be: Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/CPTHING_HardSet
+at the end folder structure should be: Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cpthing_hard_set
 
 
 ## Roadmap
@@ -37,6 +37,8 @@ at the end folder structure should be: Cyberpunk 2077/bin/x64/plugins/cyber_engi
 
 
 #### Credits
-[psiberx](https://github.com/psiberx) for his [CET kit](https://github.com/psiberx/cp2077-cet-kit), which I used to create this mod.
+
+[Maxime](https://github.com/maximegmd) and [psiberx](https://github.com/psiberx) for [CET kit](https://github.com/psiberx/cp2077-cet-kit), which I used to create this mod.
+[keanuWheeze](https://github.com/justarandomguyintheinternet) for [CP77 Native Settings](https://github.com/justarandomguyintheinternet/CP77_nativeSettings)
 Nexusmods.com: [Brahmax](https://github.com/eniNorez) and TeslaCoiled
 
