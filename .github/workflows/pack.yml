@@ -12,7 +12,7 @@ jobs:
   pack:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@latest
+      - uses: actions/checkout@v3
         
       - name: Setup folders
         run: |
@@ -29,7 +29,7 @@ jobs:
           sudo cp -r README.md /cpthing_hard_set/bin/x64/plugins/cyber_engine_tweaks/mods/cpthing_hard_set/
 
       - name: Upload zip
-        uses: actions/upload-artifact@latest
+        uses: actions/upload-artifact@v3
         with:
             name: cpthing_hard_set-${{  github.ref_name }}.zip
             path: /cpthing_hard_set/
