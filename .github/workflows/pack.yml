@@ -1,0 +1,32 @@
+name: pack
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup folders
+        run: |
+          cd ${{ github.workspace }}
+          sudo mkdir -p /cpthing_hard_set/bin/x64/plugins/cyber_engine_tweaks/mods/cpthing_hard_set/
+      - name: Copy files
+        run: |
+          sudo cp -r CETKit /cpthing_hard_set/bin/x64/plugins/cyber_engine_tweaks/mods/cpthing_hard_set/
+          sudo cp -r TeslaCoiled /cpthing_hard_set/bin/x64/plugins/cyber_engine_tweaks/mods/cpthing_hard_set/
+          sudo cp -r HardSet.lua /cpthing_hard_set/bin/x64/plugins/cyber_engine_tweaks/mods/cpthing_hard_set/
+          sudo cp -r HardSetDefaults.lua /cpthing_hard_set/bin/x64/plugins/cyber_engine_tweaks/mods/cpthing_hard_set/
+          sudo cp -r Init.lua /cpthing_hard_set/bin/x64/plugins/cyber_engine_tweaks/mods/cpthing_hard_set/
+          sudo cp -r LICENSE /cpthing_hard_set/bin/x64/plugins/cyber_engine_tweaks/mods/cpthing_hard_set/
+          sudo cp -r README.md /cpthing_hard_set/bin/x64/plugins/cyber_engine_tweaks/mods/cpthing_hard_set/
+
+      - name: Upload zip
+        uses: actions/upload-artifact@v2
+        with:
+            name: cpthing_hard_set
+            path: /cpthing_hard_set/
